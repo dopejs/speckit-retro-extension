@@ -3,7 +3,7 @@ schema_version: "1.0"
 extension:
   id: retro
   name: Spec Retrospective & Self-Improvement
-  version: 1.0.0
+  version: 1.0.1
   description: Analyze completed specs to extract shared constraints and improve constitution, templates, and checklists through self-improvement
   author: John
   repository: https://github.com/dopejs/speckit-retro-extension
