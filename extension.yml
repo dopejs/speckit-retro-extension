@@ -14,9 +14,11 @@ requires:
 
 provides:
   commands:
-    - name: analyze
+    - name: speckit.retro.analyze
       file: commands/analyze.md
       description: Perform retrospective analysis on completed specs to extract patterns and propose improvements
+      aliases:
+        - speckit.retro
 
 tags:
   - retrospective
