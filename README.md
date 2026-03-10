@@ -24,14 +24,22 @@ As your project accumulates specs, this extension helps you:
 
 ### From GitHub (recommended)
 
+Install the latest release:
+
 ```bash
-specify extension add --from https://github.com/dopejs/speckit-retro-extension
+specify extension add retro --from https://github.com/dopejs/speckit-retro-extension/archive/refs/heads/main.zip
+```
+
+Or install a specific version:
+
+```bash
+specify extension add retro --from https://github.com/dopejs/speckit-retro-extension/archive/refs/tags/v1.0.2.zip
 ```
 
 ### From Local Path (for development)
 
 ```bash
-specify extension add --from /path/to/speckit-retro-extension
+specify extension add ~/Code/speckit-retro-extension --dev
 ```
 
 ## Usage

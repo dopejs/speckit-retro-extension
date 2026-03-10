@@ -47,5 +47,11 @@ Then in your spec-kit project:
 Users can then install via:
 
 ```bash
-specify extension add --from https://github.com/dopejs/speckit-retro-extension
+specify extension add retro --from https://github.com/dopejs/speckit-retro-extension/archive/refs/tags/v1.0.2.zip
+```
+
+Or install the latest from main:
+
+```bash
+specify extension add retro --from https://github.com/dopejs/speckit-retro-extension/archive/refs/heads/main.zip
 ```
