@@ -14,8 +14,8 @@ requires:
 
 provides:
   commands:
-    - name: retro
-      file: commands/retro.md
+    - name: analyze
+      file: commands/analyze.md
       description: Perform retrospective analysis on completed specs to extract patterns and propose improvements
 
 tags:
